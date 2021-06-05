@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
+    <title>Login</title>
+    <link rel="stylesheet" href="frontend/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/styles/login2.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Semantic elements -->
+    <!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+    <!-- Bootstrap navbar example -->
+    <!-- https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
+    <div class="topnav">
+      <img class="image_logo" src="frontend/Photo/logo2.jpeg" alt="Logo" />
+
+      <a href="index.html">Home</a>
+      <a href="360degree.html">360 View</a>
+      <a href="buytiket.html">Buy Ticket</a>
+      <a href="AboutUs.html">About Us</a>
+      <a
+        href="login2.html"
+        class="btn btn-primary"
+        role="button"
+        data-bs-toggle="button"
+        >Login</a
+      >
+    </div>
+
+    <section class="forms-section">
+      <h1 class="section-title">Animated Forms</h1>
+      <div class="forms">
+        <div class="form-wrapper is-active">
+          <button type="button" class="switcher switcher-login">
+            <br />
+            <br />
+            Login
+            <span class="underline"></span>
+          </button>
+          <br />
+          <br />
+          <br />
+          <br />
+          <form class="form form-login">
+            <fieldset>
+              <legend>Please, enter your email and password for login.</legend>
+              <div class="input-block">
+                <label for="login-email">E-mail</label>
+                <input id="login-email" type="email" name="uid" required />
+              </div>
+              <div class="input-block">
+                <label for="login-password">Password</label>
+                <input
+                  id="login-password"
+                  type="password"
+                  name="pwd"
+                  required
+                />
+              </div>
+            </fieldset>
+            <a
+              href="Home.html"
+              class="btn btn-login"
+              role="button"
+              data-bs-toggle="button"
+              >Login</a
+            >
+          </form>
+        </div>
+        <div class="form-wrapper">
+          <button type="button" class="switcher switcher-signup">
+            <br />
+            <br />
+            Sign Up
+            <span class="underline"></span>
+          </button>
+          <br />
+          <br />
+          <form class="form form-signup">
+            <fieldset>
+              <legend>
+                Please, enter your email, password and password confirmation for
+                sign up.
+              </legend>
+              <div class="input-block">
+                <label for="signup-email">E-mail</label>
+                <input id="signup-email" type="email" name="uid" required />
+              </div>
+              <div class="input-block">
+                <label for="signup-password">Password</label>
+                <input
+                  id="signup-password"
+                  type="password"
+                  name="pwd"
+                  required
+                />
+              </div>
+              <div class="input-block">
+                <label for="signup-password-confirm">Confirm password</label>
+                <input
+                  id="signup-password-confirm"
+                  type="password"
+                  name="pwdrepeat"
+                  required
+                />
+              </div>
+            </fieldset>
+            <button type="submit" class="btn-signup">Continue</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="frontend/styles/loginpage.js"></script>
+  </body>
+</html>

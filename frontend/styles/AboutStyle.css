@@ -1,0 +1,154 @@
+body {
+  background-color: rgba(255, 252, 237, 1);
+}
+html,
+body,
+section {
+  position: relative;
+  height: 100%;
+}
+.topnav {
+  background-color: rgba(255, 252, 237, 1);
+  overflow: hidden;
+  border-bottom: 4px solid rgba(21, 122, 106, 1);
+  top: 0;
+  position: fixed;
+  width: 100%;
+
+  display: block;
+}
+.image_logo {
+  background-color: rgba(255, 252, 237, 1);
+  width: 84px;
+  height: 65px;
+  float: left;
+  margin-left: 42px;
+  margin-right: 152px;
+}
+
+.topnav a {
+  margin-left: 48px;
+  font-family: regular;
+  float: left;
+  color: black;
+  display: block;
+  background-color: rgba(255, 252, 237, 1);
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav .btn-primary {
+  width: 80px;
+  height: 20px;
+  border: 0px;
+  border-radius: 9px;
+  margin-right: 50px;
+  float: right;
+  padding: 12px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(21, 122, 106, 1);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.topnav .btn-primary:hover {
+  color: white;
+  opacity: 0.1px;
+}
+
+.topnav a:hover {
+  color: rgba(21, 122, 106, 1);
+}
+
+.topnav a.active {
+  color: rgba(21, 122, 106, 1);
+}
+
+.utama {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.utama p {
+  font-size: 36px;
+}
+
+.utama text {
+  font-size: 25px;
+}
+
+.image_team {
+  width: 180px;
+  height: 180px;
+  padding: 0px 10px;
+}
+
+.nama {
+  width: 100%;
+  padding: 0px 80px;
+  color: gray;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nama2 {
+  width: 100%;
+  padding: 0px 90px;
+  color: gray;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+center {
+  font-size: 36px;
+}
+.footer-dark {
+  padding: 50px 0;
+  color: white;
+  background-color: rgba(75, 75, 75, 1);
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+.footer-dark .maps {
+  margin-bottom: 10px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item h3 {
+  width: 100%;
+  padding: 0px 90px;
+}
+.item ul {
+  width: 100%;
+  padding: 0px 90px;
+}
